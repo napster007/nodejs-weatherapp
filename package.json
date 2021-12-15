@@ -1,17 +1,26 @@
 {
   "name": "web-server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"node src/app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "handlebars": "^4.7.7",
     "hbs": "^4.2.0",
     "request": "^2.88.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/napster007/nodejs-weatherapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/napster007/nodejs-weatherapp/issues"
+  },
+  "homepage": "https://github.com/napster007/nodejs-weatherapp#readme",
+  "description": ""
 }
