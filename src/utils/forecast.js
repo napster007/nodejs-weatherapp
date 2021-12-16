@@ -10,7 +10,7 @@ const foreCast = (latitude,longtitude, callback) =>{
                     callback("Cannot find the Location, Try another search", undefined)
                 }else{
                      
-                    callback(undefined, body.current.weather_descriptions + '. It is currently ' +  body.current.temperature + ' there is a ' +  body.current.precip +'% chance of rain.' )
+                    callback(undefined, body.current.weather_descriptions + '. It is currently ' +  body.current.temperature + ' there is a ' +  body.current.precip +'% chance of rain.' + '\n  Weather Description: \n \t Wind Speed: ' + body.current.wind_speed + '\n \t Wind Degree: ' + body.current.wind_degree )
                     // callback(undefined, {
                     //     latitude:latitude,
                     //     longtitude: longtitude,
